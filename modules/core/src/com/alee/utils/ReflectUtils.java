@@ -46,7 +46,7 @@ public final class ReflectUtils
     /**
      * Whether should allow safe methods to log errors or not.
      * By default it is disabled to hide some WebLaF exceptions which occur due to various method checks.
-     * You can enable it in case you need a depper look into whats happening here.
+     * You can enable it in case you need a deeper look into whats happening here.
      */
     private static boolean safeMethodsLoggingEnabled = false;
 
@@ -298,9 +298,8 @@ public final class ReflectUtils
      * @param classType type of the class where field can be located
      * @param fieldName field name
      * @return specified class field
-     * @throws NoSuchFieldException
      */
-    public static Field getFieldImpl ( final Class classType, final String fieldName ) throws NoSuchFieldException
+    public static Field getFieldImpl ( final Class classType, final String fieldName )
     {
         Field field;
         try
@@ -450,7 +449,7 @@ public final class ReflectUtils
     {
         try
         {
-            return Class.forName ( canonicalName );
+            return canonicalName != null ? Class.forName ( canonicalName ) : null;
         }
         catch ( final ClassNotFoundException e )
         {
@@ -490,13 +489,13 @@ public final class ReflectUtils
      *
      * @param jarClass          any class within the JAR
      * @param allowedExtensions list of extension filters
-     * @param allowedPackgages  list of allowed packages
+     * @param allowedPackages   list of allowed packages
      * @return JAR archive structure
      */
     public static JarStructure getJarStructure ( final Class jarClass, final List<String> allowedExtensions,
-                                                 final List<String> allowedPackgages )
+                                                 final List<String> allowedPackages )
     {
-        return getJarStructure ( jarClass, allowedExtensions, allowedPackgages, null );
+        return getJarStructure ( jarClass, allowedExtensions, allowedPackages, null );
     }
 
     /**
@@ -504,12 +503,12 @@ public final class ReflectUtils
      *
      * @param jarClass          any class within the JAR
      * @param allowedExtensions list of extension filters
-     * @param allowedPackgages  list of allowed packages
+     * @param allowedPackages   list of allowed packages
      * @param listener          jar download listener
      * @return JAR archive structure
      */
     public static JarStructure getJarStructure ( final Class jarClass, final List<String> allowedExtensions,
-                                                 final List<String> allowedPackgages, final FileDownloadListener listener )
+                                                 final List<String> allowedPackages, final FileDownloadListener listener )
     {
         try
         {
@@ -547,7 +546,7 @@ public final class ReflectUtils
                 while ( ( zipEntry = zip.getNextEntry () ) != null )
                 {
                     final String entryName = zipEntry.getName ();
-                    if ( isAllowedPackage ( entryName, allowedPackgages ) &&
+                    if ( isAllowedPackage ( entryName, allowedPackages ) &&
                             ( zipEntry.isDirectory () || isAllowedExtension ( entryName, allowedExtensions ) ) )
                     {
                         parseElement ( jarEntry, entryName, zipEntry );
@@ -633,19 +632,19 @@ public final class ReflectUtils
     /**
      * Returns whether JAR entry with the specified name is allowed by the packages list or not.
      *
-     * @param entryName        JAR entry name
-     * @param allowedPackgages list of allowed packages
+     * @param entryName       JAR entry name
+     * @param allowedPackages list of allowed packages
      * @return true if JAR entry with the specified name is allowed by the packages list, false otherwise
      */
-    private static boolean isAllowedPackage ( final String entryName, final List<String> allowedPackgages )
+    private static boolean isAllowedPackage ( final String entryName, final List<String> allowedPackages )
     {
-        if ( allowedPackgages == null || allowedPackgages.size () == 0 )
+        if ( allowedPackages == null || allowedPackages.size () == 0 )
         {
             return true;
         }
         else
         {
-            for ( final String packageStart : allowedPackgages )
+            for ( final String packageStart : allowedPackages )
             {
                 if ( entryName.startsWith ( packageStart ) )
                 {
@@ -739,7 +738,7 @@ public final class ReflectUtils
      */
     public static Class getCallerClass ( final int additionalDepth )
     {
-        // Depth explaination:
+        // Depth explanation:
         // 0 - this method class
         // 1 - this method caller class
         // 2 - caller's class caller
@@ -987,49 +986,51 @@ public final class ReflectUtils
     {
         // todo Constructors priority check (by super types)
         // todo For now some constructor with [Object] arg might be used instead of constructor with [String]
-        // todo To avoid issues don't call constructors with same amount of arguments and which are castable to each other
-        if ( parameterTypes.length == 0 )
+        // todo To avoid issues don't call constructors with same amount of arguments and which are cast-able to each other
+
+        // This enhancement was a bad idea and was disabled
+        // In case constructor is protected/private it won't be found
+        // if ( parameterTypes.length == 0 )
+        // {
+        //     return theClass.getConstructor ();
+        // }
+
+        // Constructors can be used only from the topmost class so we don't need to look for them in superclasses
+        for ( final Constructor constructor : theClass.getDeclaredConstructors () )
         {
-            return theClass.getConstructor ();
-        }
-        else
-        {
-            // Constructors can be used only from the topmost class so we don't need to look for them in superclasses
-            for ( final Constructor constructor : theClass.getDeclaredConstructors () )
+            // Retrieving constructor parameter types
+            final Class[] types = constructor.getParameterTypes ();
+
+            // Checking some simple cases first
+            if ( types.length != parameterTypes.length )
             {
-                final Class[] types = constructor.getParameterTypes ();
-
                 // Inappropriate constructor
-                if ( types.length != parameterTypes.length )
-                {
-                    continue;
-                }
-
+                continue;
+            }
+            else if ( types.length == 0 )
+            {
                 // Constructor with no parameters
-                if ( types.length == parameterTypes.length && types.length == 0 )
-                {
-                    return constructor;
-                }
-
-                // Checking types
-                boolean fits = true;
-                for ( int i = 0; i < types.length; i++ )
-                {
-                    if ( !isAssignable ( types[ i ], parameterTypes[ i ] ) )
-                    {
-                        fits = false;
-                        break;
-                    }
-                }
-                if ( fits )
-                {
-                    return constructor;
-                }
+                return constructor;
             }
 
-            // Throwing proper exception that constructor was not found
-            throw new NoSuchMethodException ( theClass.getCanonicalName () + argumentTypesToString ( parameterTypes ) );
+            // Checking parameter types
+            boolean fits = true;
+            for ( int i = 0; i < types.length; i++ )
+            {
+                if ( !isAssignable ( types[ i ], parameterTypes[ i ] ) )
+                {
+                    fits = false;
+                    break;
+                }
+            }
+            if ( fits )
+            {
+                return constructor;
+            }
         }
+
+        // Throwing proper exception that constructor was not found
+        throw new NoSuchMethodException ( theClass.getCanonicalName () + argumentTypesToString ( parameterTypes ) );
     }
 
     /**
@@ -1257,12 +1258,12 @@ public final class ReflectUtils
     }
 
     /**
-     * Returns field getter methor by popular method naming pattern.
+     * Returns field getter method by popular method naming pattern.
      * Basically those are "getFieldName"-like and "isFieldName"-like method names.
      *
      * @param object object
      * @param field  field name
-     * @return field getter methor by popular method naming pattern
+     * @return field getter method by popular method naming pattern
      */
     public static Method getFieldGetter ( final Object object, final String field )
     {
@@ -1270,12 +1271,12 @@ public final class ReflectUtils
     }
 
     /**
-     * Returns field getter methor by popular method naming pattern.
+     * Returns field getter method by popular method naming pattern.
      * Basically those are "getFieldName"-like and "isFieldName"-like method names.
      *
      * @param aClass object class
      * @param field  field name
-     * @return field getter methor by popular method naming pattern
+     * @return field getter method by popular method naming pattern
      */
     public static Method getFieldGetter ( final Class aClass, final String field )
     {
@@ -1401,7 +1402,7 @@ public final class ReflectUtils
     {
         // todo Methods priority check (by super types)
         // todo For now some method with [Object] arg might be used instead of method with [String]
-        // todo To avoid issues don't call methods with same amount of arguments and which are castable to each other
+        // todo To avoid issues don't call methods with same amount of arguments and which are cast-able to each other
 
         // Method key
         final Class[] classTypes = getClassTypes ( arguments );
@@ -1470,12 +1471,10 @@ public final class ReflectUtils
      * @param methodName   method name
      * @param types        method argument types
      * @return object's method with the specified name and arguments
-     * @throws IllegalAccessException
-     * @throws InvocationTargetException
      * @throws NoSuchMethodException
      */
     private static Method getMethod ( final Class topClass, final Class currentClass, final String methodName, final Class[] types )
-            throws IllegalAccessException, InvocationTargetException, NoSuchMethodException
+            throws NoSuchMethodException
     {
         // Searching for the specified method in object's class or one of its superclasses
         for ( final Method method : currentClass.getDeclaredMethods () )
