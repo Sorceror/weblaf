@@ -57,6 +57,7 @@ public class WebCustomTooltip extends JComponent implements ShapeProvider
     private static final long fadeTime = WebCustomTooltipStyle.fadeTime;
     private static final int cornerLength = WebCustomTooltipStyle.cornerLength;
     private static final int cornerSideX = WebCustomTooltipStyle.cornerSideX;
+    private static Font customTooltipFont;
 
     /**
      * Tooltip settings.
@@ -1206,7 +1207,11 @@ public class WebCustomTooltip extends JComponent implements ShapeProvider
     {
         final WebLabel label = new WebLabel ( tooltip, icon );
         label.setStyleId ( "custom-tooltip-label" );
-        label.setFont ( WebFonts.getSystemTooltipFont () );
+        label.setFont ( customTooltipFont != null ? customTooltipFont : WebFonts.getSystemTooltipFont() );
         return label;
+    }
+
+    public static void setCustomTooltipFont(Font customTooltipFont) {
+        WebCustomTooltip.customTooltipFont = customTooltipFont;
     }
 }
