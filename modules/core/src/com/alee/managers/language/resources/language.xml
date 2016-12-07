@@ -26,7 +26,7 @@
                 <value lang="de">Allgemein</value>
                 <value lang="it">Generale</value>
                 <value lang="tr">Genel</value>
-            	<value lang="hu">Általános</value>
+                <value lang="hu">Általános</value>
                 <value lang="cs">Všeobecně</value>
             </record>
             <record key="updated">
@@ -40,7 +40,7 @@
                 <value lang="de">Aktualisiert: %s</value>
                 <value lang="it">Aggiornato: %s</value>
                 <value lang="tr">Güncellenmiş: %s</value>
-           	<value lang="hu">Frissítve:</value>
+                <value lang="hu">Frissítve:</value>
                 <value lang="cs">Aktualizováno: %s</value>
             </record>
             <record key="java.version">
@@ -54,7 +54,7 @@
                 <value lang="de">Java v.%s</value>
                 <value lang="it">Java v.%s</value>
                 <value lang="tr">Java v.%s</value>
-           	<value lang="hu">Java v.%s</value>
+                <value lang="hu">Java v.%s</value>
                 <value lang="cs">Java v.%s</value>
             </record>
             <record key="os.arch">
@@ -68,7 +68,7 @@
                 <value lang="de">Architektur: %s</value>
                 <value lang="it">Architettura: %s</value>
                 <value lang="tr">Mimari: %s</value>
-           	<value lang="hu">Építészet:</value>
+                <value lang="hu">Építészet:</value>
                 <value lang="cs">Architektura: %s</value>
             </record>
         </Dictionary>
@@ -84,7 +84,7 @@
                 <value lang="de">Bibliotheken</value>
                 <value lang="it">Librerie</value>
                 <value lang="tr">Kütüphaneler</value>
-           	<value lang="hu">Könyvtárak</value>
+                <value lang="hu">Könyvtárak</value>
                 <value lang="cs">Knihovny</value>
             </record>
             <record key="license">
@@ -98,7 +98,7 @@
                 <value lang="de">Lizenz:</value>
                 <value lang="it">Licenza:</value>
                 <value lang="tr">Lisans:</value>
-           	<value lang="hu">Engedély:</value>
+                <value lang="hu">Engedély:</value>
                 <value lang="cs">Licence:</value>
             </record>
             <record key="site">
@@ -112,7 +112,7 @@
                 <value lang="de">Seite:</value>
                 <value lang="it">Sito:</value>
                 <value lang="tr">Site:</value>
-           	<value lang="hu">Weboldal:</value>
+                <value lang="hu">Weboldal:</value>
                 <value lang="cs">Místo:</value>
             </record>
             <record key="error">
@@ -126,7 +126,7 @@
                 <value lang="de">Bibliotheksinformationen sind nicht verfügbar</value>
                 <value lang="it">Dati di libreria non disponibili</value>
                 <value lang="tr">Kütüphane bilgisi bulunamadı</value>
-           	<value lang="hu">A könyvtár adatok nem elérhetők</value>
+                <value lang="hu">A könyvtár adatok nem elérhetők</value>
                 <value lang="cs">Data knihovny nejsou dostupné</value>
             </record>
         </Dictionary>
@@ -142,7 +142,7 @@
                 <value lang="de">Einstellungen</value>
                 <value lang="it">Proprietà</value>
                 <value lang="tr">Özellikler</value>
-           	<value lang="hu">Tulajdonságok</value>
+                <value lang="hu">Tulajdonságok</value>
                 <value lang="cs">Vlastnosti</value>
             </record>
             <record key="key">
@@ -156,7 +156,7 @@
                 <value lang="de">Schlüssel</value>
                 <value lang="it">Chiave</value>
                 <value lang="tr">Anahtar</value>
-           	<value lang="hu">Kulcs</value>
+                <value lang="hu">Kulcs</value>
                 <value lang="cs">Klíč</value>
             </record>
             <record key="value">
@@ -170,7 +170,7 @@
                 <value lang="de">Wert</value>
                 <value lang="it">Valore</value>
                 <value lang="tr">Değer</value>
-           	<value lang="hu">Érték</value>
+                <value lang="hu">Érték</value>
                 <value lang="cs">Hodnota</value>
             </record>
         </Dictionary>
@@ -215,7 +215,7 @@
             <value lang="de" mnemonic="A">Abbrechen</value>
             <value lang="it" mnemonic="A">Cancella</value>
             <value lang="tr" mnemonic="C">Cancel</value>
-	    <value lang="hu" mnemonic=“M”>Mégsem</value>
+            <value lang="hu" mnemonic="M">Mégsem</value>
             <value lang="cs" mnemonic="C">Zrušit</value>
         </record>
         <record key="yes">
@@ -229,7 +229,7 @@
             <value lang="de" mnemonic="J">Ja</value>
             <value lang="it" mnemonic="J">Si</value>
             <value lang="tr" mnemonic="Y">Yes</value>
-	    <value lang="hu" mnemonic=“I”>Igen</value>
+            <value lang="hu" mnemonic="I">Igen</value>
             <value lang="cs" mnemonic="A">Ano</value>
         </record>
         <record key="no">
@@ -243,7 +243,7 @@
             <value lang="de" mnemonic="N">Nein</value>
             <value lang="it" mnemonic="N">No</value>
             <value lang="tr" mnemonic="N">No</value>
-	    <value lang="hu" mnemonic=“N”>Nem</value>
+            <value lang="hu" mnemonic="N">Nem</value>
             <value lang="cs" mnemonic="N">Ne</value>
         </record>
     </Dictionary>
@@ -259,7 +259,7 @@
             <value lang="de">Proxyeinstellungen ändern</value>
             <value lang="it">Cambia impostazioni proxy</value>
             <value lang="tr">Proxy ayarlarını değiştir</value>
-	    <value lang="hu">Változtasd meg a proxy beállításokat</value>
+            <value lang="hu">Változtasd meg a proxy beállításokat</value>
             <value lang="cs">Změňte proxy nastavení</value>
         </record>
         <record key="use.system.text">
@@ -273,7 +273,7 @@
             <value lang="de">&lt;html&gt;Die Proxyeinstellungen der Anwendungen stimmen nicht mit denen des Systems überein.&lt;br&gt;Möchten Sie statt dessen die Systemeinstellungen verwenden?&lt;/html&gt;</value>
             <value lang="it">&lt;html&gt;Le impostazioni proxy dell'applicazione non corrispondono a quelle del sistema.&lt;br&gt;Si vuole utilizzare la configurazione di sistema invece?&lt;/html&gt;</value>
             <value lang="tr">&lt;html&gt;Uygulamanın proxy ayarları systemic proxy ayarlarından farklı.&lt;br&gt;Sistem proxy ayarlarını kullanmak istiyor musun?&lt;/html&gt;</value>
-	    <value lang=“hu”>&lt;html&gt;Az alkalmazás proxy beálításai nem egyeznek a rendszer proxy beállításaival.&lt;br&gt;Szeretnéd inkább a rendszer beállításait használni?&lt;/html&gt;</value>
+            <value lang="hu">&lt;html&gt;Az alkalmazás proxy beálításai nem egyeznek a rendszer proxy beállításaival.&lt;br&gt;Szeretnéd inkább a rendszer beállításait használni?&lt;/html&gt;</value>
             <value lang="cs">&lt;html&gt;Aplikační proxy nastavení neodpovídá systémovému proxy nastavení.&lt;br&gt;Chcete použít systémové nastavení?&lt;/html&gt;</value>
         </record>
         <record key="use.system.save">
@@ -287,7 +287,7 @@
             <value lang="de">Diese Auswahl merken</value>
             <value lang="it">Ricorda questa scelta</value>
             <value lang="tr">Seçimimi hatırla</value>
-	    <value lang=“hu”>Emlékezz erre a választásra</value>
+            <value lang="hu">Emlékezz erre a választásra</value>
             <value lang="cs">Pamatovat tuto volbu</value>
         </record>
         <Dictionary name="WebProxyAuthenticator language" prefix="auth">
@@ -302,7 +302,7 @@
                 <value lang="de">Authentifikation für den Proxy erforderlich</value>
                 <value lang="it">Autenticazione proxy richiesta</value>
                 <value lang="tr">Proxy doğrulaması gerekli</value>
-	        <value lang=“hu”>Proxy azonosítás szükséges</value>
+                <value lang="hu">Proxy azonosítás szükséges</value>
                 <value lang="cs">Proxy autorizace vyžadována</value>
             </record>
             <record key="host">
@@ -316,7 +316,7 @@
                 <value lang="de">Host:</value>
                 <value lang="it">Host:</value>
                 <value lang="tr">Sunucu:</value>
-	        <value lang=“hu”>Host:</value>
+                <value lang="hu">Host:</value>
                 <value lang="cs">Host:</value>
             </record>
             <record key="port">
@@ -330,7 +330,7 @@
                 <value lang="de">Port:</value>
                 <value lang="it">Porta:</value>
                 <value lang="tr">Port:</value>
-	        <value lang=“hu”>Port:</value>
+                <value lang="hu">Port:</value>
                 <value lang="cs">Port:</value>
             </record>
             <record key="login">
@@ -344,7 +344,7 @@
                 <value lang="de">Login:</value>
                 <value lang="it">Login:</value>
                 <value lang="tr">Giriş bilgisi:</value>
-	        <value lang=“hu”>Belépés:</value>
+                <value lang="hu">Belépés:</value>
                 <value lang="cs">Login:</value>
             </record>
             <record key="pass">
@@ -358,7 +358,7 @@
                 <value lang="de">Passwort:</value>
                 <value lang="it">Password:</value>
                 <value lang="tr">Şifre:</value>
-	        <value lang=“hu”>Jelszó:</value>
+                <value lang="hu">Jelszó:</value>
                 <value lang="cs">Password:</value>
             </record>
         </Dictionary>
@@ -376,7 +376,7 @@
                 <value lang="de">b</value>
                 <value lang="it">b</value>
                 <value lang="tr">b</value>
-	        <value lang=“hu”>b</value>
+                <value lang="hu">b</value>
                 <value lang="cs">b</value>
             </record>
             <record key="kb">
@@ -390,7 +390,7 @@
                 <value lang="de">KB</value>
                 <value lang="it">KB</value>
                 <value lang="tr">KB</value>
-	        <value lang=“hu”>KB</value>
+                <value lang="hu">KB</value>
                 <value lang="cs">KB</value>
             </record>
             <record key="mb">
@@ -404,7 +404,7 @@
                 <value lang="de">MB</value>
                 <value lang="it">MB</value>
                 <value lang="tr">MB</value>
-	        <value lang=“hu”>MB</value>
+                <value lang="hu">MB</value>
                 <value lang="cs">MB</value>
             </record>
             <record key="gb">
@@ -418,7 +418,7 @@
                 <value lang="de">GB</value>
                 <value lang="it">GB</value>
                 <value lang="tr">GB</value>
-	        <value lang=“hu”>GB</value>
+                <value lang="hu">GB</value>
                 <value lang="cs">GB</value>
             </record>
             <record key="tb">
@@ -432,7 +432,7 @@
                 <value lang="de">TB</value>
                 <value lang="it">TB</value>
                 <value lang="tr">TB</value>
-	        <value lang=“hu”>TB</value>
+                <value lang="hu">TB</value>
                 <value lang="cs">TB</value>
             </record>
             <record key="pb">
@@ -446,7 +446,7 @@
                 <value lang="de">PB</value>
                 <value lang="it">PB</value>
                 <value lang="tr">PB</value>
-	        <value lang=“hu”>PB</value>
+                <value lang="hu">PB</value>
                 <value lang="cs">PB</value>
             </record>
         </Dictionary>
@@ -462,7 +462,7 @@
                 <value lang="de">Alle Dateien</value>
                 <value lang="it">Tutti i file</value>
                 <value lang="tr">Tüm dosyalar</value>
-	        <value lang=“hu”>Minden fájl</value>
+                <value lang="hu">Minden fájl</value>
                 <value lang="cs">Všechny soubory</value>
             </record>
             <record key="folders">
@@ -476,7 +476,7 @@
                 <value lang="de">Nur Verzeichnisse</value>
                 <value lang="it">Solo cartelle</value>
                 <value lang="tr">Sadece klasörler</value>
-	        <value lang=“hu”>Csak mappák</value>
+                <value lang="hu">Csak mappák</value>
                 <value lang="cs">Pouze složky</value>
             </record>
             <record key="files">
@@ -490,7 +490,7 @@
                 <value lang="de">Nur Dateien</value>
                 <value lang="it">Solo File</value>
                 <value lang="tr">Sadece dosyalar</value>
-	        <value lang=“hu”>Csak fájlok</value>
+                <value lang="hu">Csak fájlok</value>
                 <value lang="cs">Pouze soubory</value>
             </record>
             <record key="images">
@@ -504,7 +504,7 @@
                 <value lang="de">Nur Bilder</value>
                 <value lang="it">Solo immagini</value>
                 <value lang="tr">Sadece görseller</value>
-	        <value lang=“hu”>Csak képek</value>
+                <value lang="hu">Csak képek</value>
                 <value lang="cs">Pouze obrázky</value>
             </record>
             <record key="nonhidden">
@@ -518,7 +518,7 @@
                 <value lang="de">Nur nicht-versteckte Dateien</value>
                 <value lang="it">Solo file non nascosti</value>
                 <value lang="tr">Sadece gizli olmayan dosyalar</value>
-	        <value lang=“hu”>Csak a nem rejtett fájlok</value>
+                <value lang="hu">Csak a nem rejtett fájlok</value>
                 <value lang="cs">Pouze ne skryté soubory</value>
             </record>
             <record key="custom">
@@ -532,7 +532,7 @@
                 <value lang="de">...</value>
                 <value lang="it">...</value>
                 <value lang="tr">...</value>
-	        <value lang=“hu”>…</value>
+                <value lang="hu">...</value>
                 <value lang="cs">...</value>
             </record>
         </Dictionary>
@@ -549,7 +549,7 @@
             <value lang="de">Dateien auswählen</value>
             <value lang="it">Scegli file</value>
             <value lang="tr">Dosya seç</value>
-	    <value lang=“hu”>Válassz fájlokat</value>
+            <value lang="hu">Válassz fájlokat</value>
             <value lang="cs">Vybrat soubory</value>
         </record>
         <record key="root">
@@ -563,7 +563,7 @@
             <value lang="de">Mein Computer</value>
             <value lang="it">Il mio computer</value>
             <value lang="tr">Bilgisayarım</value>
-	    <value lang=“hu”>Számítógépem</value>
+            <value lang="hu">Számítógépem</value>
             <value lang="cs">Můj počítač</value>
         </record>
         <record key="back">
@@ -577,7 +577,7 @@
             <value lang="de" way="down" state="tooltip">Zurück</value>
             <value lang="it" way="down" state="tooltip">Indietro</value>
             <value lang="tr" way="down" state="tooltip">Geri</value>
-	    <value lang=“hu” way="down" state="tooltip">Vissza</value>
+            <value lang="hu" way="down" state="tooltip">Vissza</value>
             <value lang="cs" way="down" state="tooltip">Zpět</value>
         </record>
         <record key="forward">
@@ -591,7 +591,7 @@
             <value lang="de" way="down" state="tooltip">Vorwärts</value>
             <value lang="it" way="down" state="tooltip">Avanti</value>
             <value lang="tr" way="down" state="tooltip">İleri</value>
-	    <value lang=“hu” way="down" state="tooltip">Előre</value>
+            <value lang="hu" way="down" state="tooltip">Előre</value>
             <value lang="cs" way="down" state="tooltip">Dopředu</value>
         </record>
         <record key="history">
@@ -605,7 +605,7 @@
             <value lang="de" way="down" state="tooltip">Geschichte</value>
             <value lang="it" way="down" state="tooltip">Cronologia</value>
             <value lang="tr" way="down" state="tooltip">Geçmiş</value>
-	    <value lang=“hu” way="down" state="tooltip">Előzmények</value>
+            <value lang="hu" way="down" state="tooltip">Előzmények</value>
             <value lang="cs" way="down" state="tooltip">Historie</value>
         </record>
         <record key="folderup">
@@ -619,7 +619,7 @@
             <value lang="de" way="down" state="tooltip">Verzeichnis nach oben</value>
             <value lang="it" way="down" state="tooltip">Torna indietro</value>
             <value lang="tr" way="down" state="tooltip">Üst dosya</value>
-	    <value lang=“hu” way="down" state="tooltip">Mappa fel</value>
+            <value lang="hu" way="down" state="tooltip">Mappa fel</value>
             <value lang="cs" way="down" state="tooltip">Složka nahoru</value>
         </record>
         <record key="home">
@@ -633,7 +633,7 @@
             <value lang="de" way="down" state="tooltip">Nutzerverzeichnis</value>
             <value lang="it" way="down" state="tooltip">Cartella d'inizio</value>
             <value lang="tr" way="down" state="tooltip">Ana dizin</value>
-	    <value lang=“hu” way="down" state="tooltip">Home mappa</value>
+            <value lang="hu" way="down" state="tooltip">Home mappa</value>
             <value lang="cs" way="down" state="tooltip">Základní složka</value>
         </record>
         <record key="newfolder">
@@ -647,7 +647,7 @@
             <value lang="de" way="down" state="tooltip">Neues Verzeichnis erstellen</value>
             <value lang="it" way="down" state="tooltip">Crea nuova cartella</value>
             <value lang="tr" way="down" state="tooltip">Yeni dosya oluştur</value>
-	    <value lang=“hu” way="down" state="tooltip">Új mappa létrehozása</value>
+            <value lang="hu" way="down" state="tooltip">Új mappa létrehozása</value>
             <value lang="cs" way="down" state="tooltip">Vytvořit novou složku</value>
         </record>
         <record key="newfolder.name">
@@ -661,7 +661,7 @@
             <value lang="de">Neues Verzeichnis</value>
             <value lang="it">Nuova cartella</value>
             <value lang="tr">Yeni dosya</value>
-            <value lang=“hu”>Új mappa</value>
+            <value lang="hu">Új mappa</value>
             <value lang="cs">Nová složka</value>
         </record>
         <record key="newfolder.error.title">
@@ -675,7 +675,7 @@
             <value lang="de">Fehler</value>
             <value lang="it">Errore</value>
             <value lang="tr">Hata</value>
-            <value lang=“hu”>Hiba</value>
+            <value lang="hu">Hiba</value>
             <value lang="cs">Chyba</value>
         </record>
         <record key="newfolder.error.text">
@@ -689,7 +689,7 @@
             <value lang="de">Verzeichnis konnte nicht erstellt werden</value>
             <value lang="it">Impossibile creare una nuova cartella</value>
             <value lang="tr">Yeni dosya oluşturulamadı</value>
-            <value lang=“hu”>Nem lehet új mappát létrehozni</value>
+            <value lang="hu">Nem lehet új mappát létrehozni</value>
             <value lang="cs">Nelze vytvořit novou složku</value>
         </record>
         <record key="refresh">
@@ -703,7 +703,7 @@
             <value lang="de" way="down" state="tooltip">Verzeichnisinhalt neu laden</value>
             <value lang="it" way="down" state="tooltip">Ricarica contenuto cartella</value>
             <value lang="tr" way="down" state="tooltip">Dosya içeriğini yeniden yükle</value>
-	    <value lang=“hu” way="down" state="tooltip">Mappa tartalmának újratöltése</value>
+            <value lang="hu" way="down" state="tooltip">Mappa tartalmának újratöltése</value>
             <value lang="cs" way="down" state="tooltip">Obnovit obsah složky</value>
         </record>
         <record key="delete">
@@ -717,7 +717,7 @@
             <value lang="de" way="down" state="tooltip">Ausgewählte Dateien löschen</value>
             <value lang="it" way="down" state="tooltip">Cancella file selezionati</value>
             <value lang="tr" way="down" state="tooltip">Seçilen dosyaları sil</value>
-	    <value lang=“hu” way="down" state="tooltip">Kijelölt fájlok törlése</value>
+            <value lang="hu" way="down" state="tooltip">Kijelölt fájlok törlése</value>
             <value lang="cs" way="down" state="tooltip">Vymazat vybrané soubory</value>
         </record>
         <record key="delete.confirm.title">
@@ -731,7 +731,7 @@
             <value lang="de">Löschbestätigung</value>
             <value lang="it">Conferma di cancellazione</value>
             <value lang="tr">Silme onayı</value>
-	    <value lang=“hu”>Törlés megerősítése</value>
+            <value lang="hu">Törlés megerősítése</value>
             <value lang="cs">Potvrzení vymazání</value>
         </record>
         <record key="delete.confirm.text">
@@ -745,7 +745,7 @@
             <value lang="de">Sind Sie sich sicher, dass Sie diese Dateien löschen wollen?</value>
             <value lang="it">Si è sicuri di voler cancellare questi file?</value>
             <value lang="tr">Bu dosyaları silmek istediğinden emin misin?</value>
-	    <value lang=“hu”>Biztosan törölni akarod ezeket a fájlokat?</value>
+            <value lang="hu">Biztosan törölni akarod ezeket a fájlokat?</value>
             <value lang="cs">Jste si jist, že chcete vymazat tyto soubory?</value>
         </record>
         <record key="view">
@@ -759,7 +759,7 @@
             <value lang="de" way="down" state="tooltip">Ansicht ändern</value>
             <value lang="it" way="down" state="tooltip">Cambia vista</value>
             <value lang="tr" way="down" state="tooltip">Görünümü değiştir</value>
-	    <value lang=“hu” way="down" state="tooltip">Nézet váltása</value>
+            <value lang="hu" way="down" state="tooltip">Nézet váltása</value>
             <value lang="cs" way="down" state="tooltip">Změnit pohled</value>
         </record>
         <record key="view.table">
@@ -773,7 +773,7 @@
             <value lang="de">Details</value>
             <value lang="it">Dettagli</value>
             <value lang="tr">Detaylar</value>
-	    <value lang=“hu”>Részletek</value>
+            <value lang="hu">Részletek</value>
             <value lang="cs">Detaily</value>
         </record>
         <record key="view.icons">
@@ -787,7 +787,7 @@
             <value lang="de">Icons</value>
             <value lang="it">Icone</value>
             <value lang="tr">İkonlar</value>
-	    <value lang=“hu”>Ikonok</value>
+            <value lang="hu">Ikonok</value>
             <value lang="cs">Ikony</value>
         </record>
         <record key="view.tiles">
@@ -801,7 +801,7 @@
             <value lang="de">Kachel</value>
             <value lang="it">Tessere</value>
             <value lang="tr">Seramikler</value>
-	    <value lang=“hu”>Lapok?</value>
+            <value lang="hu">Lapok?</value>
             <value lang="cs">Obkladové prvky</value>
         </record>
         <record key="files.selected">
@@ -815,7 +815,7 @@
             <value lang="de">Ausgewählte Dateien:</value>
             <value lang="it">File selezionati:</value>
             <value lang="tr">Seçilen dosyalar:</value>
-	    <value lang=“hu”>Kijelölt fájlok</value>
+            <value lang="hu">Kijelölt fájlok</value>
             <value lang="cs">Vybrané soubory:</value>
         </record>
         <record key="save">
@@ -829,7 +829,7 @@
             <value lang="de">Speichern</value>
             <value lang="it">Salva</value>
             <value lang="tr">Kaydet</value>
-	    <value lang=“hu”>Mentés</value>
+            <value lang="hu">Mentés</value>
             <value lang="cs">Uložit</value>
         </record>
         <record key="open">
@@ -843,7 +843,7 @@
             <value lang="de">Öffnen</value>
             <value lang="it">Apri</value>
             <value lang="tr">Aç</value>
-	    <value lang=“hu”>Megnyitás</value>
+            <value lang="hu">Megnyitás</value>
             <value lang="cs">Otevřít</value>
         </record>
         <record key="choose">
@@ -857,7 +857,7 @@
             <value lang="de">Auswählen</value>
             <value lang="it">Scegli</value>
             <value lang="tr">Seç</value>
-	    <value lang=“hu”>Választ</value>
+            <value lang="hu">Választ</value>
             <value lang="cs">Vybrat</value>
         </record>
         <record key="cancel">
@@ -871,7 +871,7 @@
             <value lang="de">Abbrechen</value>
             <value lang="it">Annulla</value>
             <value lang="tr">İptal</value>
-	    <value lang=“hu”>Mégsem</value>
+            <value lang="hu">Mégsem</value>
             <value lang="cs">Zrušit</value>
         </record>
         <Dictionary name="WebFileTable language" prefix="table.column">
@@ -886,7 +886,7 @@
                 <value lang="de">#</value>
                 <value lang="it">#</value>
                 <value lang="tr">#</value>
-	    	<value lang=“hu”>#</value>
+                <value lang="hu">#</value>
                 <value lang="cs">#</value>
             </record>
             <record key="name">
@@ -900,7 +900,7 @@
                 <value lang="de">Name</value>
                 <value lang="it">Nome</value>
                 <value lang="tr">İsim</value>
-	   	<value lang=“hu”>Név</value>
+                <value lang="hu">Név</value>
                 <value lang="cs">Jméno</value>
             </record>
             <record key="size">
@@ -914,7 +914,7 @@
                 <value lang="de">Größe</value>
                 <value lang="it">Dimensione</value>
                 <value lang="tr">Boyut</value>
-	        <value lang=“hu”>Méret</value>
+	              <value lang="hu">Méret</value>
                 <value lang="cs">Velikost</value>
             </record>
             <record key="extension">
@@ -928,7 +928,7 @@
                 <value lang="de">Erweiterung</value>
                 <value lang="it">Estensione</value>
                 <value lang="tr">Uzantı</value>
-	        <value lang=“hu”>Kiterjesztés</value>
+	              <value lang="hu">Kiterjesztés</value>
                 <value lang="cs">Rozšíření</value>
             </record>
             <record key="creation.date">
@@ -942,7 +942,7 @@
                 <value lang="de">Erstellt</value>
                 <value lang="it">Creato</value>
                 <value lang="tr">Oluşturma tarihi</value>
-	        <value lang=“hu”>Létrehozva</value>
+	              <value lang="hu">Létrehozva</value>
                 <value lang="cs">Vytvořeno</value>
             </record>
             <record key="modification.date">
@@ -956,7 +956,7 @@
                 <value lang="de">Geändert</value>
                 <value lang="it">Modificato</value>
                 <value lang="tr">Değiştirme tarihi</value>
-	        <value lang=“hu”>Módosítva</value>
+	              <value lang="hu">Módosítva</value>
                 <value lang="cs">Modifikováno</value>
             </record>
         </Dictionary>
@@ -973,7 +973,7 @@
             <value lang="de">Farbe wählen</value>
             <value lang="it">Scegli colore</value>
             <value lang="tr">Renk seç</value>
-	    <value lang=“hu”>Válassz színt</value>
+	          <value lang="hu">Válassz színt</value>
             <value lang="cs">Vyberte barvu</value>
         </record>
         <record key="webonly">
@@ -987,7 +987,7 @@
             <value lang="de">Nur Webfarben</value>
             <value lang="it">Solo colori Web</value>
             <value lang="tr">Sadece web renkleri</value>
-	    <value lang=“hu”>Csak web színek</value>
+	          <value lang="hu">Csak web színek</value>
             <value lang="cs">Pouze webové barvy</value>
         </record>
         <record key="color.new">
@@ -1001,7 +1001,7 @@
             <value lang="de">Neu</value>
             <value lang="it">Nuovo</value>
             <value lang="tr">Yeni</value>
-	    <value lang=“hu”>Új</value>
+	          <value lang="hu">Új</value>
             <value lang="cs">Nový</value>
         </record>
         <record key="color.current">
@@ -1015,7 +1015,7 @@
             <value lang="de">Aktuell</value>
             <value lang="it">Attuale</value>
             <value lang="tr">Kullanılan</value>
-	    <value lang=“hu”>Jelenlegi</value>
+	          <value lang="hu">Jelenlegi</value>
             <value lang="cs">Aktuální</value>
         </record>
         <record key="choose">
@@ -1029,7 +1029,7 @@
             <value lang="de">Auswählen</value>
             <value lang="it">Scegli</value>
             <value lang="tr">Seç</value>
-	    <value lang=“hu”>Választ</value>
+	          <value lang="hu">Választ</value>
             <value lang="cs">Vybrat</value>
         </record>
         <record key="reset">
@@ -1043,7 +1043,7 @@
             <value lang="de">Zurücksetzen</value>
             <value lang="it">Reset</value>
             <value lang="tr">Sıfırla</value>
-	    <value lang=“hu”>Visszaállít</value>
+            <value lang="hu">Visszaállít</value>
             <value lang="cs">Reset</value>
         </record>
         <record key="cancel">
@@ -1057,7 +1057,7 @@
             <value lang="de">Abbrechen</value>
             <value lang="it">Annulla</value>
             <value lang="tr">İptal</value>
-	    <value lang=“hu”>Mégsem</value>
+	          <value lang="hu">Mégsem</value>
             <value lang="cs">Zrušit</value>
         </record>
     </Dictionary>
@@ -1073,7 +1073,7 @@
             <value lang="de">Groß-/Kleinschreibung</value>
             <value lang="it">Rispetta maisucole e minuscole</value>
             <value lang="tr">Büyük/küçük harf duyarlılığı</value>
-	    <value lang=“hu”>Kis- és nagybetű érzékeny</value>
+	          <value lang="hu">Kis- és nagybetű érzékeny</value>
             <value lang="cs">Porovnat seznam</value>
         </record>
         <record key="spaceseparator">
@@ -1087,7 +1087,7 @@
             <value lang="de">Verwenden Sie Leerzeichen als Trennzeichen</value>
             <value lang="it">Usa lo spazio come separatore</value>
             <value lang="tr">Ayrıcı olarak boşluk kullan</value>
-	    <value lang=“hu”>Használd a spacet elválasztónak</value>
+	          <value lang="hu">Használd a spacet elválasztónak</value>
             <value lang="cs">Použít mezeru jako oddělovač</value>
         </record>
         <record key="frombeginning">
@@ -1101,7 +1101,7 @@
             <value lang="de">Suchen mit dem Anfang der Zeile</value>
             <value lang="it">Cerca dall'inizio</value>
             <value lang="tr">Başından ara</value>
-	    <value lang=“hu”>Elejétől keres</value>
+	          <value lang="hu">Elejétől keres</value>
             <value lang="cs">Hledat od začátku</value>
         </record>
     </Dictionary>
@@ -1118,7 +1118,7 @@
                 <value lang="de">Ja</value>
                 <value lang="it">Si</value>
                 <value lang="tr">Evet</value>
-	    	<value lang=“hu”>Igen</value>
+	    	        <value lang="hu">Igen</value>
                 <value lang="cs">Ano</value>
             </record>
             <record key="no">
@@ -1132,7 +1132,7 @@
                 <value lang="de">Nein</value>
                 <value lang="it">No</value>
                 <value lang="tr">Hayır</value>
-	   	<value lang=“hu”>Nem</value>
+	   	          <value lang="hu">Nem</value>
                 <value lang="cs">Ne</value>
             </record>
             <record key="cancel">
@@ -1146,7 +1146,7 @@
                 <value lang="de">Abbrechen</value>
                 <value lang="it">Annulla</value>
                 <value lang="tr">İptal</value>
-	        <value lang=“hu”>Mégsem</value>
+	              <value lang="hu">Mégsem</value>
                 <value lang="cs">Zrušit</value>
             </record>
             <record key="choose">
@@ -1160,7 +1160,7 @@
                 <value lang="de">Auswählen</value>
                 <value lang="it">Scegli</value>
                 <value lang="tr">Seç</value>
-	    	<value lang=“hu”>Választ</value>
+	    	        <value lang="hu">Választ</value>
                 <value lang="cs">Vybrat</value>
             </record>
             <record key="accept">
@@ -1174,7 +1174,7 @@
                 <value lang="de">Akzeptieren</value>
                 <value lang="it">Accetta</value>
                 <value lang="tr">Kabul et</value>
-	  	<value lang=“hu”>Elfogad</value>
+	  	          <value lang="hu">Elfogad</value>
                 <value lang="cs">Přijmout</value>
             </record>
             <record key="decline">
@@ -1188,7 +1188,7 @@
                 <value lang="de">Ablehnen</value>
                 <value lang="it">Rifiuta</value>
                 <value lang="tr">Reddet</value>
-	    	<value lang=“hu”>Elutasít</value>
+                <value lang="hu">Elutasít</value>
                 <value lang="cs">Odmítnout</value>
             </record>
             <record key="apply">
@@ -1202,7 +1202,7 @@
                 <value lang="de">Anwenden</value>
                 <value lang="it">Applica</value>
                 <value lang="tr">Uygula</value>
-	    	<value lang=“hu”>Alkalmaz</value>
+	    	        <value lang="hu">Alkalmaz</value>
                 <value lang="cs">Použít</value>
             </record>
             <record key="commit">
@@ -1216,7 +1216,7 @@
                 <value lang="de">Verpflichten</value>
                 <value lang="it">Commissiona</value>
                 <value lang="tr">İşle</value>
-	    	<value lang=“hu”>Commit</value>
+                <value lang="hu">Commit</value>
                 <value lang="cs">Vystavit</value>
             </record>
             <record key="discard">
@@ -1230,7 +1230,7 @@
                 <value lang="de">Verwerfen</value>
                 <value lang="it">Ignora modifiche</value>
                 <value lang="tr">Sil</value>
-	    	<value lang=“hu”>Eldob</value>
+	    	        <value lang="hu">Eldob</value>
                 <value lang="cs">Zrušit</value>
             </record>
             <record key="reset">
@@ -1244,7 +1244,7 @@
                 <value lang="de">Zurücksetzen</value>
                 <value lang="it">Reset</value>
                 <value lang="tr">Sıfırla</value>
-	    	<value lang=“hu”>Visszaállít</value>
+	    	        <value lang="hu">Visszaállít</value>
                 <value lang="cs">Reset</value>
             </record>
             <record key="retry">
@@ -1258,7 +1258,7 @@
                 <value lang="de">Wiederholen</value>
                 <value lang="it">Riprova</value>
                 <value lang="tr">Yeniden dene</value>
-	   	<value lang=“hu”>Újra</value>
+	   	          <value lang="hu">Újra</value>
                 <value lang="cs">Obnovit</value>
             </record>
             <record key="save">
@@ -1272,7 +1272,7 @@
                 <value lang="de">Speichern</value>
                 <value lang="it">Salva</value>
                 <value lang="tr">Kaydet</value>
-	    	<value lang=“hu”>Ment</value>
+	    	        <value lang="hu">Ment</value>
                 <value lang="cs">Uložit</value>
             </record>
             <record key="open">
@@ -1286,7 +1286,7 @@
                 <value lang="de">Öffnen</value>
                 <value lang="it">Apri</value>
                 <value lang="en">Aç</value>
-	    	<value lang=“hu”>Megnyit</value>
+	    	        <value lang="hu">Megnyit</value>
                 <value lang="cs">Otevřít</value>
             </record>
         </Dictionary>
@@ -1302,7 +1302,7 @@
                 <value lang="de">Verzeichnis auswählen</value>
                 <value lang="it">Scegli directory</value>
                 <value lang="tr">Dizin seç</value>
-	    	<value lang=“hu”>Válassz könyvtárat</value>
+	    	        <value lang="hu">Válassz könyvtárat</value>
                 <value lang="cs">Vybrat složku</value>
             </record>
             <record key="folderup">
@@ -1316,7 +1316,7 @@
                 <value lang="de" way="down" state="tooltip">Verzeichnis nach oben</value>
                 <value lang="it" way="down" state="tooltip">Cartella precedente</value>
                 <value lang="tr" way="down" state="tooltip">Üst dosya</value>
-		<value lang=“hu” way="down" state="tooltip">Mappa fel</value>
+		            <value lang="hu" way="down" state="tooltip">Mappa fel</value>
                 <value lang="cs" way="down" state="tooltip">Složka nahoru</value>
             </record>
             <record key="home">
@@ -1330,7 +1330,7 @@
                 <value lang="de" way="down" state="tooltip">Nutzerverzeichnis</value>
                 <value lang="it" way="down" state="tooltip">Cartella di inizio</value>
                 <value lang="tr" way="down" state="tooltip">Ana dizini</value>
-		<value lang=“hu” way="down" state="tooltip">Home könyvtár</value>
+		            <value lang="hu" way="down" state="tooltip">Home könyvtár</value>
                 <value lang="cs" way="down" state="tooltip">Základní složka</value>
             </record>
             <record key="refresh">
@@ -1344,7 +1344,7 @@
                 <value lang="de" way="down" state="tooltip">Verzeichnisinhalt neu laden</value>
                 <value lang="it" way="down" state="tooltip">Ricarica contenuto cartella</value>
                 <value lang="tr" way="down" state="tooltip">Dosya içeriğini yeniden yükle</value>
-		<value lang=“hu” way="down" state="tooltip">Könyvtár tartalmának újratöltése</value>
+		            <value lang="hu" way="down" state="tooltip">Könyvtár tartalmának újratöltése</value>
                 <value lang="cs" way="down" state="tooltip">Obnovit obsah složky</value>
             </record>
             <record key="newfolder">
@@ -1358,7 +1358,7 @@
                 <value lang="de" way="down" state="tooltip">Neues Verzeichnis erstellen</value>
                 <value lang="it" way="down" state="tooltip">Crea nuova cartella</value>
                 <value lang="tr" way="down" state="tooltip">Yeni dosya oluştur</value>
-		<value lang=“hu” way="down" state="tooltip">Új könyvtár létrehozása</value>
+		            <value lang="hu" way="down" state="tooltip">Új könyvtár létrehozása</value>
                 <value lang="cs" way="down" state="tooltip">Vytvořit novou složku</value>
             </record>
             <record key="newfolder.name">
@@ -1372,7 +1372,7 @@
                 <value lang="de">Neues Verzeichnis</value>
                 <value lang="it">Nuova cartella</value>
                 <value lang="tr">Yeni dosya</value>
-		<value lang=“hu”>Új mappa</value>
+		            <value lang="hu">Új mappa</value>
                 <value lang="cs">Nová složka</value>
             </record>
             <record key="newfolder.error.title">
@@ -1386,7 +1386,7 @@
                 <value lang="de">Fehler</value>
                 <value lang="it">Errore</value>
                 <value lang="tr">Hata</value>
-		<value lang=“hu”>Hiba</value>
+		            <value lang="hu">Hiba</value>
                 <value lang="cs">Chyba</value>
             </record>
             <record key="newfolder.error.text">
@@ -1400,7 +1400,7 @@
                 <value lang="de">Verzeichnis konnte nicht erstellt werden</value>
                 <value lang="it">Impossibile creare una nuova cartella</value>
                 <value lang="tr">Yeni dosya oluşturulamadı</value>
-		<value lang=“hu”>Nem lehet új könyvtárat létrehozni</value>
+		            <value lang="hu">Nem lehet új könyvtárat létrehozni</value>
                 <value lang="cs">Nelze vytvořit novou složku</value>
             </record>
             <record key="delete">
@@ -1414,7 +1414,7 @@
                 <value lang="de" way="down" state="tooltip">Ausgewählte Dateien löschen</value>
                 <value lang="it" way="down" state="tooltip">Cancella file selezionati</value>
                 <value lang="tr" way="down" state="tooltip">Seçilen dosyaları sil</value>
-		<value lang=“hu” way="down" state="tooltip">Kijelölt fájlok törlése</value>
+		            <value lang="hu" way="down" state="tooltip">Kijelölt fájlok törlése</value>
                 <value lang="cs" way="down" state="tooltip">Vymazat vybrané soubory</value>
             </record>
             <record key="delete.confirm.title">
@@ -1428,7 +1428,7 @@
                 <value lang="de">Löschbestätigung</value>
                 <value lang="it">Conferma di cancellazione</value>
                 <value lang="tr">Silme onayı</value>
-		<value lang=“hu”>Törlés megerősítése</value>
+		            <value lang="hu">Törlés megerősítése</value>
                 <value lang="cs">Vymazat potvrzení</value>
             </record>
             <record key="delete.confirm.text">
@@ -1442,7 +1442,7 @@
                 <value lang="de">Sind Sie sich sicher, dass Sie dieses Verzeichnis löschen wollen?</value>
                 <value lang="it">Si è sicuri di voler cancellare la cartella?</value>
                 <value lang="tr">Dizini silmek istediğinden emin misin?</value>
-		<value lang=“hu”>Biztosan törölni akaord a könyvtárat?</value>
+		            <value lang="hu">Biztosan törölni akaord a könyvtárat?</value>
                 <value lang="cs">Jste si jist, že chcete vymazat obsah složky?</value>
             </record>
             <record key="choose">
@@ -1456,7 +1456,7 @@
                 <value lang="de">Auswählen</value>
                 <value lang="it">Scegli</value>
                 <value lang="tr">Seç</value>
-		<value lang=“hu”>Választ</value>
+		            <value lang="hu">Választ</value>
                 <value lang="cs">Vybrat</value>
             </record>
             <record key="cancel">
@@ -1470,7 +1470,7 @@
                 <value lang="de">Abbrechen</value>
                 <value lang="it">Cancella</value>
                 <value lang="tr">İptal</value>
-		<value lang=“hu”>Mégse</value>
+		            <value lang="hu">Mégse</value>
                 <value lang="cs">Zrušit</value>
             </record>
         </Dictionary>
@@ -1486,7 +1486,7 @@
                 <value lang="de">von</value>
                 <value lang="it">di</value>
                 <value lang="tr">/</value>
-		<value lang=“hu”>of</value>
+		            <value lang="hu">of</value>
                 <value lang="cs">z</value>
             </record>
             <record key="alloc">
@@ -1500,7 +1500,7 @@
                 <value lang="de">Zugewiesenen Speicher:</value>
                 <value lang="it">Memoria assegnata:</value>
                 <value lang="tr">Ayrılmış bellek:</value>
-		<value lang=“hu”>Kiosztott memória</value>
+		            <value lang="hu">Kiosztott memória</value>
                 <value lang="cs">Alokovaná paměť:</value>
             </record>
             <record key="used">
@@ -1514,7 +1514,7 @@
                 <value lang="de">Benutzt:</value>
                 <value lang="it">Usata:</value>
                 <value lang="tr">Kullanılan:</value>
-		<value lang=“hu”>Felhasznélt:</value>
+		            <value lang="hu">Felhasznélt:</value>
                 <value lang="cs">Použito:</value>
             </record>
             <record key="max">
@@ -1528,7 +1528,7 @@
                 <value lang="de">Verfügbar:</value>
                 <value lang="it">Disponibile:</value>
                 <value lang="tr">Kullanılabilir:</value>
-		<value lang=“hu”>Elérhető:</value>
+		            <value lang="hu">Elérhető:</value>
                 <value lang="cs">Dostupné:</value>
             </record>
         </Dictionary>
@@ -1544,7 +1544,7 @@
                 <value lang="de">Legen Sie dateien hier ab</value>
                 <value lang="it">Rilascia i file quì</value>
                 <value lang="tr">Dosyaları buraya bırak</value>
-		<value lang=“hu”>Dobj ide fájlokat</value>
+		            <value lang="hu">Dobj ide fájlokat</value>
                 <value lang="cs">Sem přesuňte soubory</value>
             </record>
         </Dictionary>
@@ -1560,7 +1560,7 @@
                 <value lang="de">Drücken Sie irgendeine Taste</value>
                 <value lang="it">Premere qualsiasi tasto</value>
                 <value lang="tr">Bir tuşa bas</value>
-		<value lang=“hu”>Nyomj meg egy billentyűt</value>
+		            <value lang="hu">Nyomj meg egy billentyűt</value>
                 <value lang="cs">Stiskněte libovolnou klávesu</value>
             </record>
         </Dictionary>
@@ -1576,7 +1576,7 @@
                 <value lang="de">Mo</value>
                 <value lang="it">Lun</value>
                 <value lang="tr">Pzt</value>
-		<value lang=“hu”>H</value>
+		            <value lang="hu">H</value>
                 <value lang="cs">Pon</value>
             </record>
             <record key="dayOfWeek.2">
@@ -1590,7 +1590,7 @@
                 <value lang="de">Di</value>
                 <value lang="it">Mar</value>
                 <value lang="tr">Sal</value>
-		<value lang=“hu”>K</value>
+		            <value lang="hu">K</value>
                 <value lang="cs">Út</value>
             </record>
             <record key="dayOfWeek.3">
@@ -1604,7 +1604,7 @@
                 <value lang="de">Mi</value>
                 <value lang="it">Mer</value>
                 <value lang="tr">Çrş</value>
-		<value lang=“hu”>Sze</value>
+		            <value lang="hu">Sze</value>
                 <value lang="cs">Stř</value>
             </record>
             <record key="dayOfWeek.4">
@@ -1618,7 +1618,7 @@
                 <value lang="de">Do</value>
                 <value lang="it">Gio</value>
                 <value lang="tr">Prş</value>
-		<value lang=“hu”>Cs</value>
+		            <value lang="hu">Cs</value>
                 <value lang="cs">Čtv</value>
             </record>
             <record key="dayOfWeek.5">
@@ -1632,7 +1632,7 @@
                 <value lang="de">Fr</value>
                 <value lang="it">Ven</value>
                 <value lang="tr">Cum</value>
-		<value lang=“hu”>P</value>
+		            <value lang="hu">P</value>
                 <value lang="cs">Pát</value>
             </record>
             <record key="dayOfWeek.6">
@@ -1646,7 +1646,7 @@
                 <value lang="de">Sa</value>
                 <value lang="it">Sab</value>
                 <value lang="tr">Cmt</value>
-		<value lang=“hu”>Szo</value>
+		            <value lang="hu">Szo</value>
                 <value lang="cs">Sob</value>
             </record>
             <record key="dayOfWeek.7">
@@ -1660,7 +1660,7 @@
                 <value lang="de">So</value>
                 <value lang="it">Dom</value>
                 <value lang="tr">Paz</value>
-		<value lang=“hu”>V</value>
+		            <value lang="hu">V</value>
                 <value lang="cs">Ned</value>
             </record>
         </Dictionary>
@@ -1676,7 +1676,7 @@
                 <value lang="de">Nine-patch Editor</value>
                 <value lang="it">Editor Nine-patch</value>
                 <value lang="tr">Nine-patch düzenleyici</value>
-		<value lang=“hu”>Nine-patch szerkesztő</value>
+		            <value lang="hu">Nine-patch szerkesztő</value>
                 <value lang="cs">Nine-patch editor</value>
             </record>
             <record key="openImage">
@@ -1690,7 +1690,7 @@
                 <value lang="de" state="tooltip">Bild öffnen</value>
                 <value lang="it" state="tooltip">Apri immagine</value>
                 <value lang="tr" state="tooltip">Görsel aç</value>
-		<value lang=“hu” state="tooltip">Kép megnyitása</value>
+		            <value lang="hu" state="tooltip">Kép megnyitása</value>
                 <value lang="cs" state="tooltip">Otevřít obrázek</value>
             </record>
             <record key="openImage.title">
@@ -1704,7 +1704,7 @@
                 <value lang="de" state="tooltip">Bild auswählen</value>
                 <value lang="it" state="tooltip">Scegli immagine</value>
                 <value lang="tr" state="tooltip">Görsel seç</value>
-		<value lang=“hu” state="tooltip">Kép kiválasztása</value>
+		            <value lang="hu" state="tooltip">Kép kiválasztása</value>
                 <value lang="cs" state="tooltip">Vybrat obrázek</value>
             </record>
             <record key="saveImage">
@@ -1718,7 +1718,7 @@
                 <value lang="de" state="tooltip">Bild speichern</value>
                 <value lang="it" state="tooltip">Salva immagine</value>
                 <value lang="tr" state="tooltip">Görseli kaydet</value>
-		<value lang=“hu” state="tooltip">Kép mentése</value>
+		            <value lang="hu" state="tooltip">Kép mentése</value>
                 <value lang="cs" state="tooltip">Uložit obrázek</value>
             </record>
             <record key="saveImageAs">
@@ -1732,7 +1732,7 @@
                 <value lang="de" state="tooltip">Bild speichern unter</value>
                 <value lang="it" state="tooltip">Salva immagine come</value>
                 <value lang="tr" state="tooltip">Görseli farklı kaydet</value>
-		<value lang=“hu” state="tooltip">Kép mentése mint</value>
+		            <value lang="hu" state="tooltip">Kép mentése mint</value>
                 <value lang="cs" state="tooltip">Otevřít obrázek jako</value>
             </record>
             <record key="saveImageAs.title">
@@ -1746,7 +1746,7 @@
                 <value lang="de" state="tooltip">Escolha o ficheiro no qual guardar</value>
                 <value lang="it" state="tooltip">Scegli file da salvare in</value>
                 <value lang="tr" state="tooltip">Kaydetmek için dosya seç</value>
-		<value lang=“hu” state="tooltip">Válasszd ki a fájlt amibe mentsünk</value>
+		            <value lang="hu" state="tooltip">Válasszd ki a fájlt amibe mentsünk</value>
                 <value lang="cs" state="tooltip">Vybrat soubor pro záznam informací</value>
             </record>
             <record key="undo">
@@ -1760,7 +1760,7 @@
                 <value lang="de" state="tooltip">Rückgängig</value>
                 <value lang="it" state="tooltip">Annulla</value>
                 <value lang="tr" state="tooltip">Geri al</value>
-		<value lang=“hu” state="tooltip">Visszavonás</value>
+		            <value lang="hu" state="tooltip">Visszavonás</value>
                 <value lang="cs" state="tooltip">Krok zpět</value>
             </record>
             <record key="redo">
@@ -1774,7 +1774,7 @@
                 <value lang="de" state="tooltip">Wiederholen</value>
                 <value lang="it" state="tooltip">Ripeti</value>
                 <value lang="tr" state="tooltip">Yinele</value>
-		<value lang=“hu” state="tooltip">Ismétlés</value>
+		            <value lang="hu" state="tooltip">Ismétlés</value>
                 <value lang="cs" state="tooltip">Krok vpřed</value>
             </record>
             <record key="copyInfo">
@@ -1788,7 +1788,7 @@
                 <value lang="de" state="tooltip">Patchpfad kopieren</value>
                 <value lang="it" state="tooltip">Copia indirizzo patch</value>
                 <value lang="tr" state="tooltip">Yama konumunu kopyala</value>
-		<value lang=“hu” state="tooltip">A patch helyének másolása</value>
+		            <value lang="hu" state="tooltip">A patch helyének másolása</value>
                 <value lang="cs" state="tooltip">Kopírovat pozici záplaty</value>
             </record>
             <record key="pasteInfo">
@@ -1802,7 +1802,7 @@
                 <value lang="de" state="tooltip">Patchpfad einfügen</value>
                 <value lang="it" state="tooltip">Incolla indirizzo patch</value>
                 <value lang="tr" state="tooltip">Yama konumunu yapıştır</value>
-		<value lang=“hu” state="tooltip">Patch helyének beillesztése</value>
+		            <value lang="hu" state="tooltip">Patch helyének beillesztése</value>
                 <value lang="cs" state="tooltip">Vložit pozici záplaty</value>
             </record>
             <record key="rotateCCW">
@@ -1816,7 +1816,7 @@
                 <value lang="de" state="tooltip">Um 90 Grad gegen den Uhrzeigersinn</value>
                 <value lang="it" state="tooltip">Ruotare di 90 gradi antiorario</value>
                 <value lang="tr" state="tooltip">Saatin ters yönünde 90 derece döndür</value>
-		<value lang=“hu” state="tooltip">Elforgatás 90 fokkal óramutató járásával ellentétesen</value>
+		            <value lang="hu" state="tooltip">Elforgatás 90 fokkal óramutató járásával ellentétesen</value>
                 <value lang="cs" state="tooltip">Otočit 0 90 stupňů proti směru hodin</value>
             </record>
             <record key="rotateCW">
@@ -1830,7 +1830,7 @@
                 <value lang="de" state="tooltip">Um 90 Grad im Uhrzeigersinn</value>
                 <value lang="it" state="tooltip">Ruotare di 90 gradi orario</value>
                 <value lang="tr" state="tooltip">Saatin yönünde 90 derece döndür</value>
-		<value lang=“hu” state="tooltip">Elforgatás 90 fokkal óramutató járásával megegyezően</value>
+		            <value lang="hu" state="tooltip">Elforgatás 90 fokkal óramutató járásával megegyezően</value>
                 <value lang="cs" state="tooltip">Otočit o 90 stupňů ve směru hodin</value>
             </record>
             <record key="rotate180">
@@ -1844,7 +1844,7 @@
                 <value lang="de" state="tooltip">Drehen um 180 Grad</value>
                 <value lang="it" state="tooltip">Ruotare di 180 gradi</value>
                 <value lang="tr" state="tooltip">180 derece döndür</value>
-		<value lang=“hu” state="tooltip">Elforgatás 180 fokkal</value>
+		            <value lang="hu" state="tooltip">Elforgatás 180 fokkal</value>
                 <value lang="cs" state="tooltip">Otočit o 180 stupňů</value>
             </record>
             <record key="preview.text">
@@ -1858,7 +1858,7 @@
                 <value lang="de">Einfacher Text</value>
                 <value lang="it">Testo di prova</value>
                 <value lang="tr">Basit metin</value>
-		<value lang="en">Egyszerű szöveg</value>
+		            <value lang="hu">Egyszerű szöveg</value>
                 <value lang="cs">Jednoduchý text</value>
             </record>
             <record key="preview.showIcon">
@@ -1871,8 +1871,8 @@
                 <value lang="pt" state="tooltip">Mostrar ícone</value>
                 <value lang="de" state="tooltip">Icon anzeigen</value>
                 <value lang="it" state="tooltip">Mostra icona</value>
-                <value lang=“hu” state="tooltip">Ikon mutatása</value>
                 <value lang="tr" state="tooltip">İkonu göster</value>
+                <value lang="hu" state="tooltip">Ikon mutatása</value>
                 <value lang="cs" state="tooltip">Zobrazit ikonu</value>
             </record>
             <record key="preview.showText">
@@ -1886,7 +1886,7 @@
                 <value lang="de" state="tooltip">Text anzeigen</value>
                 <value lang="it" state="tooltip">Mostra testo</value>
                 <value lang="tr" state="tooltip">Metni göster</value>
-                <value lang=“hu” state="tooltip">Szöveg mutatása</value>
+                <value lang="hu" state="tooltip">Szöveg mutatása</value>
                 <value lang="cs" state="tooltip">Zobrazit text</value>
             </record>
             <record key="preview.transparentBackground">
@@ -1900,7 +1900,7 @@
                 <value lang="de" state="tooltip">Transparenten Hintergrund anzeigen</value>
                 <value lang="it" state="tooltip">Mostra sfondo trasparente</value>
                 <value lang="tr" state="tooltip">Saydam arkaplan göster</value>
-                <value lang=“hu” state="tooltip">Átlátszó háttér mutatása</value>
+                <value lang="hu" state="tooltip">Átlátszó háttér mutatása</value>
                 <value lang="cs" state="tooltip">Zobrazit průhledné pozadí</value>
             </record>
             <record key="preview.coloredBackground">
@@ -1914,7 +1914,7 @@
                 <value lang="de" state="tooltip">Farbigen Hintergrund anzeigen</value>
                 <value lang="it" state="tooltip">Mostra sfondo colorato</value>
                 <value lang="tr" state="tooltip">Renkli arkaplan göster</value>
-                <value lang=“hu” state="tooltip">Színezett háttér mutatása</value>
+                <value lang="hu" state="tooltip">Színezett háttér mutatása</value>
                 <value lang="cs" state="tooltip">Zobrazit barevné pozadí</value>
             </record>
             <record key="preview.foregroundColor">
@@ -1928,7 +1928,7 @@
                 <value lang="de" state="tooltip">Textfarbe</value>
                 <value lang="it" state="tooltip">Colore del testo</value>
                 <value lang="tr" state="tooltip">Metin rengi</value>
-                <value lang=“hu” state="tooltip">Szöveg színe</value>
+                <value lang="hu" state="tooltip">Szöveg színe</value>
                 <value lang="cs" state="tooltip">Barva textu</value>
             </record>
             <record key="showSpacing">
@@ -1942,7 +1942,7 @@
                 <value lang="de" state="tooltip">Abstandslänge zwischen Hilfslinien anzeigen</value>
                 <value lang="it" state="tooltip">Mostra lunghezza della spaziatura fra le linee guida</value>
                 <value lang="tr" state="tooltip">Kılavuz çizgilerin arasında aralık uzunluğunu göster</value>
-                <value lang=“hu” state="tooltip">Térköz hosszának megjelenítése az írényvonalak között</value>
+                <value lang="hu" state="tooltip">Térköz hosszának megjelenítése az írényvonalak között</value>
                 <value lang="cs" state="tooltip">Zobrazit délku mezer mezi vodicími čarami</value>
             </record>
             <record key="showRuler">
@@ -1956,7 +1956,7 @@
                 <value lang="de" state="tooltip">Lineal anzeigen</value>
                 <value lang="it" state="tooltip">Mostra righello</value>
                 <value lang="tr" state="tooltip">Cetveli göster</value>
-                <value lang=“hu” state="tooltip">Vonalzó mutatása</value>
+                <value lang="hu" state="tooltip">Vonalzó mutatása</value>
                 <value lang="cs" state="tooltip">Zobrazit pravítko</value>
             </record>
             <record key="fillContent">
@@ -1970,7 +1970,7 @@
                 <value lang="de" state="tooltip">Inhaltsbereich anzeigen</value>
                 <value lang="it" state="tooltip">Mostra contenuto area</value>
                 <value lang="tr" state="tooltip">İçerin alanını göster</value>
-                <value lang=“hu” state="tooltip">Tartalom terület mutatása</value>
+                <value lang="hu" state="tooltip">Tartalom terület mutatása</value>
                 <value lang="cs" state="tooltip">Zobrazit obsah plochy</value>
             </record>
             <record key="fillStretch">
@@ -1984,7 +1984,7 @@
                 <value lang="de" state="tooltip">Gestreckte Bereiche anzeigen</value>
                 <value lang="it" state="tooltip">Mostra area estesa</value>
                 <value lang="tr" state="tooltip">Uzatılmış alanları göster</value>
-                <value lang=“hu” state="tooltip">Kifeszített terület mutatása</value>
+                <value lang="hu" state="tooltip">Kifeszített terület mutatása</value>
                 <value lang="cs" state="tooltip">Zobrazit protažené plochy</value>
             </record>
             <record key="rulerCursor">
@@ -1998,7 +1998,7 @@
                 <value lang="de" state="tooltip">Zeigerposition auf Lineal anzeigen</value>
                 <value lang="it" state="tooltip">Mostra posizione del cursore sul righello</value>
                 <value lang="tr" state="tooltip">Cetvelde kürsör konumunu göster</value>
-                <value lang=“hu” state="tooltip">Mutasd a kurzor pozícióját vonalzón</value>
+                <value lang="hu" state="tooltip">Mutasd a kurzor pozícióját vonalzón</value>
                 <value lang="cs" state="tooltip">Zobrazit pozici kurzoru na pravítku</value>
             </record>
             <record key="areaCursor">
@@ -2012,8 +2012,7 @@
                 <value lang="de" state="tooltip">Zeigerposition in Bereich anzeigen</value>
                 <value lang="it" state="tooltip">Mostra posizione del cursore nell'area</value>
                 <value lang="tr" state="tooltip">Alanda kürsör konumunu göster</value>
-                <value lang=“hu” state="tooltip">Mutad a kurzor pozícióját a területen</value>
-
+                <value lang="hu" state="tooltip">Mutad a kurzor pozícióját a területen</value>
                 <value lang="cs" state="tooltip">Zobrazit pozici kurzoru na ploše</value>
             </record>
             <record key="saveChanges.title">
@@ -2027,7 +2026,7 @@
                 <value lang="de">Speichern bestätigen</value>
                 <value lang="it">Conferma salvataggio</value>
                 <value lang="tr">Kaydetme onayı</value>
-		<value lang=“hu”>Mentés megerősítése</value>
+		            <value lang="hu">Mentés megerősítése</value>
                 <value lang="cs">Potvrdit záznam</value>
             </record>
             <record key="saveChanges.text">
@@ -2041,7 +2040,7 @@
                 <value lang="de">Wollen Sie das bearbeitete Bild speichern?</value>
                 <value lang="it">Salvare l'immagine modificata?</value>
                 <value lang="tr">Değiştirilmiş görseli kaydetmek istiyor musun?</value>
-		<value lang=“hu”>Akarod menteni a szerkesztett képet?</value>
+		            <value lang="hu">Akarod menteni a szerkesztett képet?</value>
                 <value lang="cs">Chcete uložit editovaný obrázek</value>
             </record>
         </Dictionary>
@@ -2057,7 +2056,7 @@
                 <value lang="de" state="inputPropmt">Suchen...</value>
                 <value lang="it" state="inputPropmt">Cerca...</value>
                 <value lang="tr" state="inputPropmt">Ara…</value>
-		<value lang=“hu” state="inputPropmt">Keres...</value>
+		            <value lang="hu" state="inputPropmt">Keres...</value>
                 <value lang="cs" state="inputPropmt">Hledat...</value>
             </record>
         </Dictionary>
@@ -2073,7 +2072,7 @@
                 <value lang="de">Schließen</value>
                 <value lang="it">Chiudi</value>
                 <value lang="tr">Kapat</value>
-		<value lang=“hu”>Bezár</value>
+		            <value lang="hu">Bezár</value>
                 <value lang="cs">Zavřít</value>
             </record>
             <record key="closeOthers">
@@ -2087,7 +2086,7 @@
                 <value lang="de">Schließen andere</value>
                 <value lang="it">Chiudi gli altri</value>
                 <value lang="tr">Diğerleri kapat</value>
-		<value lang=“hu”>Bezár másokat</value>
+		            <value lang="hu">Bezár másokat</value>
                 <value lang="cs">Zavřít ostatní</value>
             </record>
             <record key="left">
@@ -2101,7 +2100,7 @@
                 <value lang="de">Nach links Gruppe</value>
                 <value lang="it">Sposta nel gruppo di sinistra</value>
                 <value lang="tr">Sol gruba taşı</value>
-		<value lang=“hu”>A baloldali csoportrba mozgat</value>
+		            <value lang="hu">A baloldali csoportrba mozgat</value>
                 <value lang="cs">Posun do levé skupiny</value>
             </record>
             <record key="right">
@@ -2115,7 +2114,7 @@
                 <value lang="de">Bewegen nach rechts-Gruppe</value>
                 <value lang="it">Sposta nel gruppo di destra</value>
                 <value lang="tr">Sağ gruba taşı</value>
-		<value lang=“hu”>A jobboldali csoportba mozgat</value>
+		            <value lang="hu">A jobboldali csoportba mozgat</value>
                 <value lang="cs">Posun do pravé skupiny</value>
             </record>
             <record key="top">
@@ -2129,7 +2128,7 @@
                 <value lang="de">Gehen Sie zu Top-Gruppe</value>
                 <value lang="it">Sposta nel gruppo in alto</value>
                 <value lang="tr">Üst gruba taşı</value>
-		<value lang=“hu”>A felső csoportba mozgat</value>
+		            <value lang="hu">A felső csoportba mozgat</value>
                 <value lang="cs">Posun do horní skupiny</value>
             </record>
             <record key="bottom">
@@ -2143,7 +2142,7 @@
                 <value lang="de">Nach ganz unten Gruppe</value>
                 <value lang="it">Sposta nel gruppo in basso</value>
                 <value lang="tr">Alt gruba taşı</value>
-		<value lang=“hu”>Az alsó csoportba mozgat</value>
+		            <value lang="hu">Az alsó csoportba mozgat</value>
                 <value lang="cs">Posun do spodní skupiny</value>
             </record>
             <record key="rotate">
@@ -2157,7 +2156,7 @@
                 <value lang="de">Ändern Sie Split-Orientierung</value>
                 <value lang="it">Cambia orientamento divisore</value>
                 <value lang="tr">Bölme yönünü değiştir</value>
-		<value lang=“hu”>Osztás tájolásának cseréje</value>
+		            <value lang="hu">Osztás tájolásának cseréje</value>
                 <value lang="cs">Změnit rozdělení orientace</value>
             </record>
             <record key="swap">
@@ -2171,7 +2170,7 @@
                 <value lang="de">Swap-Gruppen</value>
                 <value lang="it">Gruppi swap</value>
                 <value lang="tr">Grupları değiştir</value>
-		<value lang=“hu”>Csoportok cseréje</value>
+		            <value lang="hu">Csoportok cseréje</value>
                 <value lang="cs">Přehodit skupiny</value>
             </record>
             <record key="unsplit">
@@ -2185,7 +2184,7 @@
                 <value lang="de">Kombinieren Sie Gruppen</value>
                 <value lang="it">Unisci gruppi</value>
                 <value lang="tr">Grupları birleştir</value>
-		<value lang=“hu”>Csoportok egyesítése</value>
+		            <value lang="hu">Csoportok egyesítése</value>
                 <value lang="cs">Kombinovaat skupiny</value>
             </record>
             <record key="unsplitall">
@@ -2199,7 +2198,7 @@
                 <value lang="de">Kombinieren Sie alle Gruppen</value>
                 <value lang="it">Unisci tutti i gruppi</value>
                 <value lang="tr">Tüm grupları birleştir</value>
-		<value lang=“hu”>Minden csoport egyesítése</value>
+		            <value lang="hu">Minden csoport egyesítése</value>
                 <value lang="cs">Kombinovat všechny skupiny</value>
             </record>
         </Dictionary>
@@ -2215,7 +2214,7 @@
         <langInfo lang="de" author="trashguru" info="German" title="Deutsch" />
         <langInfo lang="it" author="cR0Ck" info="Italian" title="Italiano" />
         <langInfo lang="tr" author="Tilelook" info="Turkish" title="Turkish" />
-	<langInfo lang=“hu” author=“Tilelook” info=“Magyar” title=“Magyar” />
+        <langInfo lang="hu" author="Tilelook" info="Magyar" title="Magyar" />
         <langInfo lang="cs" author="Libor Štolc" info="Czech" title="Česky" />
     </LanguageInfo>
 </Dictionary>

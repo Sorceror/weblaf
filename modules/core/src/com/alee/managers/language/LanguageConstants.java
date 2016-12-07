@@ -76,6 +76,11 @@ public interface LanguageConstants
     public static final String TURKISH = "tr";
 
     /**
+     * Hungarian language
+     */
+    public static final String HUNGARIAN = "hu";
+    
+    /**
      * Czech language.
      */
     public static final String CZECH = "cs";
