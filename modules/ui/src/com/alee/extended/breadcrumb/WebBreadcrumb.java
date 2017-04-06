@@ -18,6 +18,7 @@
 package com.alee.extended.breadcrumb;
 
 import com.alee.extended.layout.BreadcrumbLayout;
+import com.alee.laf.button.WebButtonStyle;
 import com.alee.laf.panel.WebPanel;
 
 import java.awt.*;
@@ -33,6 +34,8 @@ public class WebBreadcrumb extends WebPanel
     private int elementOverlap = WebBreadcrumbStyle.elementOverlap;
     private Insets elementMargin = WebBreadcrumbStyle.elementMargin;
     private boolean encloseLastElement = WebBreadcrumbStyle.encloseLastElement;
+    public static Color bgTop = WebBreadcrumbStyle.bgTop;
+    public static Color bgBottom = WebBreadcrumbStyle.bgBottom;
 
     private boolean autoUpdate = true;
 

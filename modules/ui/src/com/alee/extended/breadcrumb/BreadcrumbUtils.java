@@ -18,6 +18,8 @@
 package com.alee.extended.breadcrumb;
 
 import com.alee.global.StyleConstants;
+import com.alee.laf.button.WebButton;
+import com.alee.laf.button.WebToggleButton;
 import com.alee.utils.ColorUtils;
 import com.alee.utils.GraphicsUtils;
 import com.alee.utils.ShapeCache;
@@ -127,6 +129,8 @@ public final class BreadcrumbUtils
         final float progress = breadcrumbElement.getProgress ();
         final boolean ltr = element.getComponentOrientation ().isLeftToRight ();
         final boolean selected;
+        final Color bgBottom;
+        final Color bgTop;
         if ( element instanceof AbstractButton )
         {
             final AbstractButton ab = ( AbstractButton ) element;
@@ -136,6 +140,22 @@ public final class BreadcrumbUtils
         else
         {
             selected = false;
+        }
+        if ( element instanceof WebBreadcrumbToggleButton )
+        {
+            final WebToggleButton button = ( WebBreadcrumbToggleButton ) element;
+            bgBottom = button.getBottomBgColor();
+            bgTop = button.getTopBgColor();
+        } else if ( element instanceof WebButton)
+        {
+            final WebBreadcrumbButton button = ( WebBreadcrumbButton ) element;
+            bgBottom = button.getBottomBgColor();
+            bgTop = button.getTopBgColor();
+        }
+        else
+        {
+            bgBottom = StyleConstants.bottomBgColor;
+            bgTop = StyleConstants.topBgColor;
         }
 
         // Background shape
@@ -157,7 +177,7 @@ public final class BreadcrumbUtils
 
             // Background
             g2d.setPaint ( selected ? WebBreadcrumbStyle.selectedBgColor :
-                    new GradientPaint ( 0, 0, WebBreadcrumbStyle.bgTop, 0, element.getHeight (), WebBreadcrumbStyle.bgBottom ) );
+                    new GradientPaint ( 0, 0, bgTop, 0, element.getHeight (), bgBottom ) );
             g2d.fill ( fs );
 
             // Inner shade
@@ -178,7 +198,7 @@ public final class BreadcrumbUtils
         {
             // Background
             g2d.setPaint ( selected ? WebBreadcrumbStyle.selectedBgColor :
-                    new GradientPaint ( 0, 0, WebBreadcrumbStyle.bgTop, 0, element.getHeight (), WebBreadcrumbStyle.bgBottom ) );
+                    new GradientPaint ( 0, 0, bgTop, 0, element.getHeight (), bgBottom ) );
             g2d.fill ( fs );
         }
 
